@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PushTarget2
+  description: Testing to see if I can get this registered automatically
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:default/foster.clark
+  lifecycle: experimental
